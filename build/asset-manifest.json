@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.c1953a58.js",
+    "static/media/Screenshot 2023-11-23 185214.png": "/static/media/Screenshot 2023-11-23 185214.e19443f01fd02f5ed974.png",
+    "static/media/Screenshot 2023-11-23 001133.png": "/static/media/Screenshot 2023-11-23 001133.0758bb9b7bd6096defd9.png",
+    "static/media/HeroImage.png": "/static/media/HeroImage.fa117d97aa63b09a364f.png",
+    "static/media/campusbuzz.png": "/static/media/campusbuzz.005aa2a7d90a90b498d3.png",
+    "static/media/img.jpg": "/static/media/img.9191ac125a306ecee64c.jpg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.c1953a58.js.map": "/static/js/main.c1953a58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.c1953a58.js"
+  ]
+}
