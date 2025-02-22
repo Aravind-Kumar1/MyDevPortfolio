@@ -1,160 +1,110 @@
-import image from '../images/Screenshot 2023-11-23 001133.png'
-import im from '../images/campusbuzz.png'
-import i from '../images/Screenshot 2023-11-23 185214.png'
-import img1 from '../images/img.jpg'
-import express from '../images/express.png'
-import codegnan from '../images/codegnan.png'
+import elim from '../images/elim.png'
+import news from '../images/news.png'
+import event from '../images/event.png'
+import smart from '../images/smart.png'
 import peters from '../images/peters.png'
 import sri from '../images/sri.jpeg'
+import html from '../images/html.png'
+import css from '../images/css.png'
+import java from '../images/java.png'
+import sql from '../images/sq.png'
+import js from '../images/js.png'
+import react from '../images/react.png'
+import redux from '../images/redux.png'
+import boot from '../images/bot.png'
+import ax from '../images/ax.png'
+import jq from '../images/jq.png'
+import jest from '../images/jest.png'
+import cy from '../images/cypress.png'
+import post from '../images/post.png'
+import dev from '../images/dev.png'
+import git from '../images/git.png'
+import vs from '../images/vs.png'
+
+
+
 
 
 export const Bio = {
-  name: "Chamaakuri Aravind",
+  name: "Aravind Chamaakuri",
   roles: [
     "Software Engineer",
     "Frontend Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a driven and adaptable professional, always ready to embrace new challenges. Passionate about continuous learning, I am committed to delivering exceptional results. With a proactive mindset and a results-oriented approach, I strive to make a meaningful impact and achieve excellence.",
   github: "https://github.com/Aravind-Kumar1",
   resume:
-    "https://drive.google.com/file/d/1AvzQBo5ubLPkKMxgh7Q9XkMf8EUumiZP/view?usp=sharing",
+    "https://drive.google.com/file/d/1deddzUv37eelCeQxRKzHNEM8DljxTBNm/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/chamaakuri-aravind/",
   insta: "https://www.instagram.com/aravind_paul01/",
 };
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-    
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-    
+      { name: "HTML5", image: html },
+      { name: "CSS3", image: css },
       
+      { name: "Java", image: java },
+      { name: "SQL", image: sql },
+      { name: "JavaScript (ES6+)", image: js },
     ],
   },
-  // {
-  //   title: "Backend",
-  //   skills: [
-  //     {
-  //       name: "Node Js",
-  //       image: "https://nodejs.org/static/images/logo.svg",
-  //     },
-  //     {
-  //       name: "Express Js",
-  //       image:
-  //         express,
-  //     },
-      
-  //     {
-  //       name: "Python",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-  //     },
-  //     {
-  //       name: "MySQL",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-  //     },
-  //     {
-  //       name: "Postgresql",
-  //       image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-  //     },
-   
-  //   ],
-  // },
-
   {
-    title: "Others",
+    title: "Frontend Development",
     skills: [
-      // {
-      //   name: "Git",
-      //   image:
-      //     "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      // },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-   
-     
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      // {
-      //   name: "Postman",
-      //   image:
-      //     "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      // },
-     
-    
+      { name: "React.js", image: react },
+      { name: "Redux", image: redux },
+      { name: "Bootstrap", image: boot },
+      { name: "Axios", image: ax },
+      { name: "jQuery", image: jq },
     ],
   },
+  {
+    title: "Testing Tools",
+    skills: [
+      { name: "Jest", image: jest },
+      { name: "Cypress", image: cy },
+    ],
+  },
+  {
+    title: "Development Tools",
+    skills: [
+      { name: "Git & GitHub", image: git},
+      { name: "VS Code", image: vs },
+      { name: "Chrome DevTools", image: dev },
+      { name: "Postman", image: post },
+    ],
+  },
+
+  
 ];
-
 export const experiences = [
- 
   {
-    id: 4,
-    role: "Web Developer",
-    project: "Flash Feed News Web App",
-    desc: "Created a news web application using HTML, CSS, and JavaScript, integrating a news API to display the latest news.",
+    id: 1,
+    role: "Frontend Developer",
+    project: "Emmanuel Living Impact Mission Website Development",
+    date: "2024-25",
+    desc: "Spearheaded the design and development of a responsive and dynamic website for Emmanuel Living Impact Mission to enhance user engagement and accessibility across devices. Implemented an intuitive UI using React.js and streamlined communication processes by integrating EmailJS for automated prayer request handling.",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      "React.js",
+      "EmailJS",
+      "Responsive Design"
     ]
   },
   {
-    id: 5,
-    role: "Mobile App Developer",
-    project: "CampusBuzz",
-    date: "Aug 2023 - Jan 2024",
-    desc: "Developed a mobile app as a one-stop solution for event discovery, compatible with both Android and iOS platforms.",
+    id: 2,
+    role: "Frontend Developer",
+    project: "Event Planning Platform",
+    date: "2024",
+    desc: "Engineered a comprehensive event booking solution for occasions like weddings and corporate events. Developed a visually compelling and device-responsive interface using HTML and CSS, while enhancing user interactivity through JavaScript-driven dynamic form handling.",
     skills: [
-      "Flutter",
-      "Dart",
-      "GetX",
-      "Firebase"
-    ],
-    achievements: [
-      "Anticipated a 40% increase in event attendance and a 60% boost in event reach post-launch."
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "User Experience Design"
     ]
   }
 ];
@@ -184,61 +134,52 @@ export const education = [
 
 export const projects = [
   {
-    id: 4,
-    title: "Flash Feed News Aggregator",
-    date: "Jun 2023 - Aug 2023",
+    id: 1,
+    title: "Emmanuel Living Impact Mission Website",
+    date: "2024-25",
     description:
-      "Developed a dynamic news web application using HTML, CSS, and JavaScript, incorporating a news API to provide users with a curated collection of articles from various categories. Implemented social media sharing functionality to allow users to share articles seamlessly across their networks. The app ensures users have access to up-to-date information in one convenient platform, enhancing their ability to stay informed and engaged"
-,
-    image:i,
-    tags: [
-      
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "News API"
-    ],
+      "Engineered a fully responsive and dynamic website for Emmanuel Living Impact Mission, enhancing user engagement and accessibility across devices. Developed an intuitive UI with React.js, integrating EmailJS for automated prayer request submissions to streamline communication within the church community.",
+    image: elim,
+    tags: ["React.js", "EmailJS", "Responsive Design"],
     category: "web app",
-    github: "https://github.com/Aravind-Kumar1/FLASHFEED-NEWS-WEB-APP",
-    webapp: "https://github.com/Aravind-Kumar1/FLASHFEED-NEWS-WEB-APP",
-  },
-  
-  {
-    id: 9,
-    title: "Campus Buzz Web-App",
-    date: "Sep 2023",
-    description:
-      "Developed a web application designed as a comprehensive solution for event discovery, tailored for seamless compatibility with both Android and iOS platforms. The app empowers users to effortlessly explore a wide range of events, from social gatherings to professional conferences, through intuitive navigation and personalized recommendations. Utilized technologies such as Flutter and Dart for frontend development, ensuring a smooth user experience across platforms. Firebase was employed for backend operations, facilitating robust performance and real-time updates. Anticipated outcomes include a projected 40% increase in event attendance and a 60% boost in event reach post-launch, highlighting its role in enhancing event discovery and fostering community engagement."
-,
-    image:image,
-    tags: [   "Flutter",
-      "Dart",
-      "GetX",
-      "Firebase"],
-    category: "web app",
-    github: "https://github.com/Aravind-Kumar1/flutter-admin-portal",
-    webapp: "https://github.com/Aravind-Kumar1/flutter-admin-portal",
+    github: "https://github.com/Aravind-Kumar1/church-community",
+    webapp: "https://elimimpact.com/",
   },
   {
-    id: 9,
-    title: "Campus Buzz Mobile-App",
-    date: "Sep 2023",
+    id: 2,
+    title: "Event Planning Platform",
+    date: "2024",
     description:
-      "Developed a mobile application designed as a comprehensive solution for event discovery, tailored for seamless compatibility with both Android and iOS platforms. The app empowers users to effortlessly explore a wide range of events, from social gatherings to professional conferences, through intuitive navigation and personalized recommendations. Leveraged technologies such as Flutter, Dart, GetX for state management, and Firebase for backend operations to ensure robust performance and real-time updates. Anticipated outcomes include a projected 40% increase in event attendance and a 60% boost in event reach post-launch, underscoring its effectiveness in enhancing event discovery and community engagement."
-,
-    image:im,
-    tags: [   "Flutter",
-      "Dart",
-      "Firebase"],
-    category: "machine learning",
-    github: "https://github.com/TheMakers404/campusbuzz",
-    webapp: "https://github.com/TheMakers404/campusbuzz",
+      "Developed a visually appealing and device-responsive platform for event bookings, catering to weddings, birthdays, and corporate events. Built using HTML, CSS, and JavaScript, the platform features dynamic forms and interactive elements for a seamless user experience.",
+    image: event,
+    tags: ["HTML", "CSS", "JavaScript", "Event Booking"],
+    category: "web app",
+    github: "https://github.com/Aravind-Kumar1/EventMaster",
+    webapp: "https://nimble-monstera-9158e3.netlify.app",
   },
-
-
-
-
-
+  {
+    id: 3,
+    title: "SmartRead Platform",
+    date: "2024",
+    description:
+      "Developed an advanced book and audiobook platform featuring integrated note-taking capabilities to enhance user engagement. Leveraged Firebase for data management and Firestore for real-time updates, creating a seamless reading experience.",
+    image: smart,
+    tags: ["React", "Firebase", "Firestore", "Note-Taking"],
+    category: "web app",
+    github: "https://github.com/Aravind-Kumar1/smartread-platform",
+    webapp: "https://www.smartread.com",
+  },
+  // {
+  //   id: 4,
+  //   title: "FlashFeed News Aggregator",
+  //   date: "2023",
+  //   description:
+  //     "Built a real-time news aggregation platform using the BBC News API. Implemented features for category filtering and social media sharing, enabling users to access up-to-date information conveniently.",
+  //   image: news,
+  //   tags: ["HTML", "CSS", "JavaScript", "News API"],
+  //   category: "web app",
+  //   github: "https://github.com/Aravind-Kumar1/flashfeed-news-app",
+  //   webapp: "https://www.flashfeed.com",
+  // }
 ];
-
 

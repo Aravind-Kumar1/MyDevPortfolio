@@ -54,7 +54,6 @@ const Desc = styled.div`
     }
 `;
 
-
 const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
@@ -121,8 +120,6 @@ const ContactButton = styled.input`
   cursor: pointer;
 `
 
-
-
 const Contact = () => {
 
   //hooks
@@ -131,7 +128,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_mpuuuqo', 'template_8vmjy1g', form.current, 'aZVryBVZDdFsdOwxf')
+    emailjs.sendForm('service_ivdb4gl', 'template_c9viqec', form.current, 'vXtL9yQyjd26p2tUU')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -139,8 +136,6 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
 
   return (
     <Container id='contact'>
@@ -157,7 +152,7 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
@@ -166,4 +161,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
